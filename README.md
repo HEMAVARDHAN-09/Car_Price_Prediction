@@ -61,6 +61,7 @@ The dataset contains information about used cars and their selling prices.
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📸 Project Screenshots
 
@@ -75,3 +76,9 @@ pip install -r requirements.txt
 
 ### GitHub Repository
 ![GitHub Repository](screenshots/github_repository.png)
+
+
+immediately after:
+
+```bash
+pip install -r requirements.txt
