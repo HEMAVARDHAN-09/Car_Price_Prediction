@@ -67,11 +67,11 @@ pip install -r requirements.txt
 ### Home Page
 ![Home Page](screenshots/home_page.png)
 
+### Input Data
+![Input Data](screenshots/input_data.png)
+
 ### Prediction Result
 ![Prediction Result](screenshots/prediction_result.png)
 
 ### GitHub Repository
 ![GitHub Repository](screenshots/github_repository.png)
-
-### Input Data
-![Input Data](screenshots/input_data.png)
