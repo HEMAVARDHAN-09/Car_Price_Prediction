@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Car Price Prediction</h1>
+
+<form action="/predict" method="POST">
+
+<label>Present Price (Lakhs)</label>
+<input type="number" step="0.01" name="present_price" required>
+
+<label>Kilometers Driven</label>
+<input type="number" name="kms_driven" required>
+
+<label>Car Age (Years)</label>
+<input type="number" name="car_age" required>
+
+<label>Owner</label>
+<input type="number" name="owner" required>
+
+<label>Fuel Type</label>
+<select name="fuel_type">
+    <option>Petrol</option>
+    <option>Diesel</option>
+</select>
+
+<label>Seller Type</label>
+<select name="seller_type">
+    <option>Dealer</option>
+    <option>Individual</option>
+</select>
+
+<label>Transmission</label>
+<select name="transmission">
+    <option>Manual</option>
+    <option>Automatic</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Predict Price">
+
+</form>
+
+<h2>{{ prediction }}</h2>
+
+</div>
+
+</body>
+</html>
+<h2>{{ prediction }}</h2>
+
+<footer>
+    Developed by <b>Nossam Hemavardhan Reddy</b>
+</footer>
+
+</div>
+
+</body>
+</html>
