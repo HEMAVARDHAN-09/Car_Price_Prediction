@@ -61,3 +61,14 @@ The dataset contains information about used cars and their selling prices.
 
 ```bash
 pip install -r requirements.txt
+
+## 📸 Project Screenshots
+
+### Home Page
+![Home Page](screenshots/home_page.png)
+
+### Prediction Result
+![Prediction Result](screenshots/prediction_result.png)
+
+### GitHub Repository
+![GitHub Repository](screenshots/github_repository.png)
